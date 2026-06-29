@@ -7,12 +7,20 @@
       <img src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png" height="60" />
     </a>
     <br><br>
+    <a href="https://github.com/muhammadhaseebiqbal-dev/Screen-Recorder/stargazers">
+      <img src="https://img.shields.io/github/stars/muhammadhaseebiqbal-dev/Screen-Recorder?style=for-the-badge&logo=github&color=E3B341" />
+    </a>
+    &nbsp;&nbsp;
     <a href="https://github.com/muhammadhaseebiqbal-dev/Screen-Recorder/releases">
       <img src="https://img.shields.io/badge/GitHub-Releases-24292e?style=for-the-badge&logo=github&logoColor=white" />
     </a>
     &nbsp;&nbsp;
     <a href="obtainium://add/https://github.com/muhammadhaseebiqbal-dev/Screen-Recorder">
       <img src="https://img.shields.io/badge/Get_it_on-Obtainium-297ACC?style=for-the-badge&logo=android&logoColor=white" />
+    </a>
+    &nbsp;&nbsp;
+    <a href="https://www.patreon.com/MuhammadHaseebIqbal/posts/buy-me-coffee-162409817?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link">
+      <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-Support-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black" />
     </a>
   </p>
 
@@ -69,6 +77,16 @@ Designed for speed, clarity, and a smooth Material 3 Expressive experience.
 - Minimum SDK 26 (Android 8.0)  
 - Gradle 9+  
 - Java 17  
+
+---
+
+## ☕ Support
+
+If you enjoy using ScreenRecorder and want to support its continued development, consider buying me a coffee! Every contribution helps keep the app free, ad-free, and actively maintained.
+
+<a href="https://www.patreon.com/MuhammadHaseebIqbal/posts/buy-me-coffee-162409817?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link">
+  <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-Support-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black" />
+</a>
 
 ---
 
