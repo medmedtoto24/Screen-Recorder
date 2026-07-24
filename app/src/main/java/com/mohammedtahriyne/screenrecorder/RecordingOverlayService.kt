@@ -1,4 +1,4 @@
-package com.haseeb.recorder
+package com.mohammedtahriyne.screenrecorder
 
 import android.animation.ValueAnimator
 import android.app.Service
@@ -9,7 +9,7 @@ import android.view.*
 import android.view.animation.DecelerateInterpolator
 import android.view.animation.OvershootInterpolator
 import androidx.appcompat.view.ContextThemeWrapper
-import com.haseeb.recorder.databinding.LayoutRecordingOverlayBinding
+import com.mohammedtahriyne.screenrecorder.databinding.LayoutRecordingOverlayBinding
 import kotlin.math.abs
 
 /*

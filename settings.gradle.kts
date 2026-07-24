@@ -14,5 +14,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "ScreenRecorder"
+rootProject.name = "ProScreenRecorder"
 include(":app")

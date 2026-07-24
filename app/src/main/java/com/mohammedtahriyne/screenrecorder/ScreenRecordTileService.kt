@@ -1,4 +1,4 @@
-package com.haseeb.recorder
+package com.mohammedtahriyne.screenrecorder
 
 import android.app.PendingIntent
 import android.content.Intent

@@ -1,6 +1,6 @@
 <resources>
 
-    <string name="app_name">Screen Recorder</string>
+    <string name="app_name">Pro Screen Recorder</string>
 
     <string name="AboutActivity_title">About</string>
 
@@ -36,13 +36,13 @@
     <string name="MediaProjectionPermissionActivity_log_service_failed">Service start failed</string>
 
     <string name="ScreenRecordService_notif_title">Screen Recording</string>
-    <string name="ScreenRecordService_notif_text">Recording in progress...</string>
+    <string name="ScreenRecordService_notif_text">Recording in progress\u2026</string>
     <string name="ScreenRecordService_notif_btn_stop">Stop</string>
     <string name="ScreenRecordService_notif_done_title">Recording Saved</string>
     <string name="ScreenRecordService_notif_done_btn_app">Open App</string>
     <string name="ScreenRecordService_toast_saved">Recording saved successfully</string>
     <string name="ScreenRecordService_toast_failed">Start recording failed</string>
-    <string name="ScreenRecordService_virtual_display_name">Screen Recorder</string>
+    <string name="ScreenRecordService_virtual_display_name">Pro Screen Recorder</string>
 
     <string name="ScreenRecordTileService_tile_start">Record</string>
     <string name="ScreenRecordTileService_tile_stop">Stop Recording</string>
@@ -88,5 +88,12 @@
 
     <string name="settings_about_app_title">About App</string>
     <string name="settings_about_app_summary">Version, licenses and developer info</string>
+
+    <string name="about_developer_label">Developer</string>
+    <string name="about_youtube_label">Subscribe on YouTube</string>
+    <string name="about_instagram_label">Follow on Instagram</string>
+    <string name="about_facebook_label">Follow on Facebook</string>
+    <string name="about_support_email_title">Support Email</string>
+    <string name="about_support_email_subtitle">mtahriyne20@gmail.com</string>
 
 </resources>

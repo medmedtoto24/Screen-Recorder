@@ -1,4 +1,4 @@
-package com.haseeb.recorder
+package com.mohammedtahriyne.screenrecorder
 
 import android.app.Activity
 import android.app.ActivityManager

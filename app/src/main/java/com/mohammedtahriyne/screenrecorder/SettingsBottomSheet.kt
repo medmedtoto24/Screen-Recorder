@@ -1,4 +1,4 @@
-package com.haseeb.recorder
+package com.mohammedtahriyne.screenrecorder
 
 import android.content.Intent
 import android.os.Bundle
@@ -11,7 +11,7 @@ import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.google.android.material.button.MaterialButtonToggleGroup
 import com.google.android.material.color.DynamicColors
 import com.google.android.material.shape.ShapeAppearanceModel
-import com.haseeb.recorder.databinding.LayoutSettingsSheetBinding
+import com.mohammedtahriyne.screenrecorder.databinding.LayoutSettingsSheetBinding
 
 /*
  * Manages the settings bottom sheet UI.

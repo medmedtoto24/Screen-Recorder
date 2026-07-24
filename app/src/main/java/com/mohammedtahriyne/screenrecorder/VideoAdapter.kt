@@ -1,4 +1,4 @@
-package com.haseeb.recorder
+package com.mohammedtahriyne.screenrecorder
 
 import android.app.RecoverableSecurityException
 import android.content.ContentValues
@@ -17,8 +17,8 @@ import androidx.recyclerview.widget.ListAdapter
 import com.bumptech.glide.Glide
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.listitem.ListItemViewHolder
-import com.haseeb.recorder.databinding.LayoutDialogEditTextBinding
-import com.haseeb.recorder.databinding.LayoutVideoItemBinding
+import com.mohammedtahriyne.screenrecorder.databinding.LayoutDialogEditTextBinding
+import com.mohammedtahriyne.screenrecorder.databinding.LayoutVideoItemBinding
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale

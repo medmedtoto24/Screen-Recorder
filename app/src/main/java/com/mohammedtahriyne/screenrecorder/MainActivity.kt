@@ -1,4 +1,4 @@
-package com.haseeb.recorder
+package com.mohammedtahriyne.screenrecorder
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -18,7 +18,7 @@ import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.haseeb.recorder.databinding.ActivityMainBinding
+import com.mohammedtahriyne.screenrecorder.databinding.ActivityMainBinding
 import kotlinx.coroutines.*
 
 /*

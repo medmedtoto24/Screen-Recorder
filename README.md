@@ -1,35 +1,14 @@
 <div align="center">
-  <img src="fastlane/metadata/android/en-US/images/icon.png" alt="ScreenRecorder Logo" width="128" />
-  <h1>ScreenRecorder</h1>
+  <img src="fastlane/metadata/android/en-US/images/icon.png" alt="Pro Screen Recorder Logo" width="128" />
+  <h1>Pro Screen Recorder</h1>
 
-  <p>
-    <a href="https://apt.izzysoft.de/fdroid/index/apk/com.haseeb.recorder">
-      <img src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png" height="60" />
-    </a>
-    <br><br>
-    <a href="https://github.com/muhammadhaseebiqbal-dev/Screen-Recorder/stargazers">
-      <img src="https://img.shields.io/github/stars/muhammadhaseebiqbal-dev/Screen-Recorder?style=for-the-badge&logo=github&color=E3B341" />
-    </a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/muhammadhaseebiqbal-dev/Screen-Recorder/releases">
-      <img src="https://img.shields.io/badge/GitHub-Releases-24292e?style=for-the-badge&logo=github&logoColor=white" />
-    </a>
-    &nbsp;&nbsp;
-    <a href="obtainium://add/https://github.com/muhammadhaseebiqbal-dev/Screen-Recorder">
-      <img src="https://img.shields.io/badge/Get_it_on-Obtainium-297ACC?style=for-the-badge&logo=android&logoColor=white" />
-    </a>
-    &nbsp;&nbsp;
-    <a href="https://www.patreon.com/MuhammadHaseebIqbal/posts/buy-me-coffee-162409817?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link">
-      <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-Support-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black" />
-    </a>
-  </p>
-
-  <p><b>Minimal • Fast • Material 3 Expressive Screen Recorder</b></p>
+  <p><b>Minimal &#8226; Fast &#8226; Material 3 Expressive Screen Recorder</b></p>
+  <p>Developed by Mohammed Tahriyne</p>
 </div>
 
 ---
 
-## 📸 Preview
+## Preview
 
 <div align="center">
 
@@ -53,24 +32,23 @@ Designed for speed, clarity, and a smooth Material 3 Expressive experience.
 
 ---
 
-## ✨ Features
+## Features
 
-- 🎥 Capture your screen in the **highest resolution your device supports**
-- ⏸ Pause anytime and ▶️ resume instantly without breaking the recording
-- 🟢 Floating control pill with quick **Pause • Resume • Stop** actions
-- ⏳ Clean 3-second countdown before recording starts
-- ⚡ Start recording directly from the Quick Settings tile
-- 🎨 Crafted with **Material 3 Expressive UI** for a modern look
-- 📱 Minimal interface focused on usability and clarity
-- 🧩 Lightweight build with efficient memory usage
-- 🗂 Auto-save recordings to `DCIM / ScreenRecorder /`
-- 📦 Uses modern MediaStore API for compatibility
-- 🎬 Smooth and stable recording across devices
-- ℹ️ Clean About screen with app information
+- Capture your screen in the **highest resolution your device supports**
+- Pause anytime and resume instantly without breaking the recording
+- Floating control pill with quick **Pause &#8226; Resume &#8226; Stop** actions
+- Clean 3-second countdown before recording starts
+- Start recording directly from the Quick Settings tile
+- Crafted with **Material 3 Expressive UI** for a modern look
+- Minimal interface focused on usability and clarity
+- Lightweight build with efficient memory usage
+- Auto-save recordings to `DCIM / ScreenRecorder /`
+- Uses modern MediaStore API for compatibility
+- Smooth and stable recording across devices
 
 ---
 
-## 🛠️ Build Requirements
+## Build Requirements
 
 - Android Studio (latest recommended)  
 - Android SDK 36  
@@ -80,22 +58,21 @@ Designed for speed, clarity, and a smooth Material 3 Expressive experience.
 
 ---
 
-## ☕ Support
+## Contact
 
-If you enjoy using ScreenRecorder and want to support its continued development, consider buying me a coffee! Every contribution helps keep the app free, ad-free, and actively maintained.
-
-<a href="https://www.patreon.com/MuhammadHaseebIqbal/posts/buy-me-coffee-162409817?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link">
-  <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-Support-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black" />
-</a>
+- YouTube: https://youtube.com/@mohammedtahriyne
+- Instagram: https://www.instagram.com/mohammed_tahriyne
+- Facebook: https://www.facebook.com/MohammedTahriyne2002
+- Support Email: mtahriyne20@gmail.com
 
 ---
 
-## 📜 License
+## License
 
 ```
 MIT License
 
-Copyright (c) 2024 Muhammad Haseeb
+Copyright (c) 2024 Mohammed Tahriyne
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

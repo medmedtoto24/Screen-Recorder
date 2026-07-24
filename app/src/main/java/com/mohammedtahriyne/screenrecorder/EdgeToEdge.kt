@@ -1,6 +1,6 @@
 @file:JvmName("EdgeToEdge")
 
-package com.haseeb.recorder
+package com.mohammedtahriyne.screenrecorder
 
 import android.content.res.Configuration
 import android.view.View
@@ -132,5 +132,5 @@ fun View?.applyVerticalInsets() {
 
 
 /*
-* Created by Ameer Muawiya Sangha, a Pakistani Developer.
-*/
+ * Created by Mohammed Tahriyne.
+ */

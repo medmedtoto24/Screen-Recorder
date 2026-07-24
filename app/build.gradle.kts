@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.haseeb.recorder"
+    namespace = "com.mohammedtahriyne.screenrecorder"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.haseeb.recorder"
+        applicationId = "com.mohammedtahriyne.screenrecorder"
         minSdk = 26
         targetSdk = 36
         versionCode = 6

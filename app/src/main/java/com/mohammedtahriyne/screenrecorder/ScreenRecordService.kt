@@ -1,4 +1,4 @@
-package com.haseeb.recorder
+package com.mohammedtahriyne.screenrecorder
 
 import android.app.Notification
 import android.app.NotificationChannel
@@ -39,12 +39,12 @@ class ScreenRecordService : Service() {
         const val CHANNEL_ID = "screen_record_channel"
         const val NOTIFICATION_ID = 1
         
-        const val ACTION_START = "com.haseeb.recorder.ACTION_START"
-        const val ACTION_STOP = "com.haseeb.recorder.ACTION_STOP"
-        const val ACTION_PAUSE = "com.haseeb.recorder.ACTION_PAUSE"
-        const val ACTION_RESUME = "com.haseeb.recorder.ACTION_RESUME"
+        const val ACTION_START = "com.mohammedtahriyne.screenrecorder.ACTION_START"
+        const val ACTION_STOP = "com.mohammedtahriyne.screenrecorder.ACTION_STOP"
+        const val ACTION_PAUSE = "com.mohammedtahriyne.screenrecorder.ACTION_PAUSE"
+        const val ACTION_RESUME = "com.mohammedtahriyne.screenrecorder.ACTION_RESUME"
         
-        const val ACTION_STATE_CHANGED = "com.haseeb.recorder.ACTION_STATE_CHANGED"
+        const val ACTION_STATE_CHANGED = "com.mohammedtahriyne.screenrecorder.ACTION_STATE_CHANGED"
         const val EXTRA_STATE = "extra_state"
         const val STATE_START = "state_start"
         const val STATE_STOP = "state_stop"
