@@ -1,15 +1,16 @@
 <resources>
 
     <string name="app_name">Pro Screen Recorder</string>
+    <string name="app_version">Version 6.0</string>
 
-    <string name="AboutActivity_title">About</string>
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_tools">Tools</string>
+    <string name="nav_settings">Settings</string>
 
-    <string name="MainActivity_title">Recordings</string>
+    <!-- Home -->
     <string name="MainActivity_record_start">Record</string>
     <string name="MainActivity_record_stop">Stop</string>
-    <string name="MainActivity_desc_audio">Toggle System Audio</string>
-    <string name="MainActivity_desc_mic">Toggle Microphone</string>
-    <string name="MainActivity_desc_info">About App</string>
     <string name="MainActivity_empty_text">No recordings yet</string>
     <string name="MainActivity_empty_subtext">Tap the record button to start capturing your screen</string>
 
@@ -32,33 +33,43 @@
     <string name="VideoAdapter_toast_rename_failed">Failed to rename</string>
     <string name="VideoAdapter_toast_no_player">No video player found</string>
 
-    <string name="MediaProjectionPermissionActivity_permission_denied">Permission denied</string>
-    <string name="MediaProjectionPermissionActivity_log_init_failed">Initialization failed</string>
-    <string name="MediaProjectionPermissionActivity_log_proj_failed">Media projection request failed</string>
-    <string name="MediaProjectionPermissionActivity_log_service_failed">Service start failed</string>
+    <!-- Tools -->
+    <string name="tools_title">Video Tools</string>
+    <string name="tools_subtitle">Edit and enhance your recordings</string>
+    <string name="tools_video_label">Video Editing</string>
+    <string name="tools_quick_actions_label">Quick Actions</string>
+    <string name="tools_trim_title">Trim Video</string>
+    <string name="tools_trim_summary">Cut and trim your recordings to the perfect length</string>
+    <string name="tools_thumbnail_title">Thumbnail Maker</string>
+    <string name="tools_thumbnail_summary">Extract and save the best frame as a thumbnail</string>
+    <string name="tools_speed_title">Speed Control</string>
+    <string name="tools_speed_summary">Change video playback speed from 0.25x to 4x</string>
+    <string name="tools_gif_title">GIF Converter</string>
+    <string name="tools_gif_summary">Convert your recordings into animated GIFs</string>
+    <string name="tools_about_title">About App</string>
+    <string name="tools_about_summary">Version, licenses and developer info</string>
 
-    <string name="ScreenRecordService_notif_title">Screen Recording</string>
-    <string name="ScreenRecordService_notif_text">Recording in progress\u2026</string>
-    <string name="ScreenRecordService_notif_btn_stop">Stop</string>
-    <string name="ScreenRecordService_notif_done_title">Recording Saved</string>
-    <string name="ScreenRecordService_notif_done_btn_app">Open App</string>
-    <string name="ScreenRecordService_toast_saved">Recording saved successfully</string>
-    <string name="ScreenRecordService_toast_failed">Start recording failed</string>
-    <string name="ScreenRecordService_virtual_display_name">Pro Screen Recorder</string>
-
-    <string name="ScreenRecordTileService_tile_start">Record</string>
-    <string name="ScreenRecordTileService_tile_stop">Stop Recording</string>
-
-    <string name="dialog_edit_text_rename_title">Title</string>
-
-    <string name="ConfigManager_quality_max_with_label">Max (%1$s)</string>
-
-    <string name="settings_title">Recording Settings</string>
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_subtitle">Configure your recording preferences</string>
+    <string name="settings_appearance_header">Appearance</string>
     <string name="settings_audio_header">Audio</string>
     <string name="settings_video_header">Video</string>
-    <string name="settings_appearance_header">Appearance</string>
     <string name="settings_advanced_header">Advanced</string>
     <string name="settings_about_header">Information</string>
+
+    <string name="settings_profile_not_set">Tap to set up profile</string>
+    <string name="settings_profile_no_email">No email set</string>
+    <string name="settings_profile_tap_to_setup">Tap to set up your profile</string>
+
+    <string name="settings_dynamic_colors_title">Dynamic Colors</string>
+    <string name="settings_dynamic_colors_summary">Apply colors based on your wallpaper</string>
+
+    <string name="settings_theme_title">App Theme</string>
+    <string name="settings_theme_summary">Choose your preferred appearance</string>
+    <string name="settings_theme_system">System</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
 
     <string name="settings_mic_title">Microphone</string>
     <string name="settings_mic_summary">Record audio from your mic</string>
@@ -76,21 +87,14 @@
     <string name="settings_quality_360p">360p</string>
     <string name="settings_quality_240p">240p</string>
 
-    <string name="settings_dynamic_colors_title">Dynamic Colors</string>
-    <string name="settings_dynamic_colors_summary">Apply colors based on your wallpaper</string>
-
-    <string name="settings_theme_title">App Theme</string>
-    <string name="settings_theme_summary">Choose your preferred appearance</string>
-    <string name="settings_theme_system">System</string>
-    <string name="settings_theme_light">Light</string>
-    <string name="settings_theme_dark">Dark</string>
-
     <string name="settings_show_touches_title">Show Touches</string>
     <string name="settings_show_touches_summary">Display visual touch feedback during recording</string>
 
     <string name="settings_about_app_title">About App</string>
     <string name="settings_about_app_summary">Version, licenses and developer info</string>
 
+    <!-- About -->
+    <string name="AboutActivity_title">About</string>
     <string name="about_developer_label">Developer</string>
     <string name="about_youtube_label">Subscribe on YouTube</string>
     <string name="about_instagram_label">Follow on Instagram</string>
@@ -113,5 +117,52 @@
     <string name="thumbnail_failed">Failed to save thumbnail</string>
     <string name="thumbnail_extracting">Extracting frames\u2026</string>
     <string name="thumbnail_select">Tap a frame to select</string>
+
+    <!-- Speed Control -->
+    <string name="speed_title">Speed Control</string>
+    <string name="speed_label">Playback Speed</string>
+    <string name="speed_save">Save Video</string>
+    <string name="speed_saved">Video saved with new speed</string>
+    <string name="speed_failed">Failed to process video</string>
+
+    <!-- GIF Converter -->
+    <string name="gif_title">GIF Converter</string>
+    <string name="gif_settings_label">GIF Duration</string>
+    <string name="gif_save">Convert to GIF</string>
+    <string name="gif_saved">GIF created successfully</string>
+    <string name="gif_failed">Failed to create GIF</string>
+
+    <!-- Registration -->
+    <string name="registration_title">Your Profile</string>
+    <string name="registration_subtitle">Set up your profile to personalize the app</string>
+    <string name="registration_name_hint">Full Name</string>
+    <string name="registration_email_hint">Email Address</string>
+    <string name="registration_bio_hint">Bio (optional)</string>
+    <string name="registration_save">Save Profile</string>
+    <string name="registration_skip">Skip for now</string>
+    <string name="registration_success">Profile saved successfully</string>
+    <string name="registration_error_name">Please enter your name</string>
+
+    <!-- Services -->
+    <string name="MediaProjectionPermissionActivity_permission_denied">Permission denied</string>
+    <string name="MediaProjectionPermissionActivity_log_init_failed">Initialization failed</string>
+    <string name="MediaProjectionPermissionActivity_log_proj_failed">Media projection request failed</string>
+    <string name="MediaProjectionPermissionActivity_log_service_failed">Service start failed</string>
+
+    <string name="ScreenRecordService_notif_title">Screen Recording</string>
+    <string name="ScreenRecordService_notif_text">Recording in progress\u2026</string>
+    <string name="ScreenRecordService_notif_btn_stop">Stop</string>
+    <string name="ScreenRecordService_notif_done_title">Recording Saved</string>
+    <string name="ScreenRecordService_notif_done_btn_app">Open App</string>
+    <string name="ScreenRecordService_toast_saved">Recording saved successfully</string>
+    <string name="ScreenRecordService_toast_failed">Start recording failed</string>
+    <string name="ScreenRecordService_virtual_display_name">Pro Screen Recorder</string>
+
+    <string name="ScreenRecordTileService_tile_start">Record</string>
+    <string name="ScreenRecordTileService_tile_stop">Stop Recording</string>
+
+    <string name="dialog_edit_text_rename_title">Title</string>
+
+    <string name="ConfigManager_quality_max_with_label">Max (%1$s)</string>
 
 </resources>

@@ -11,8 +11,8 @@ android {
         applicationId = "com.mohammedtahriyne.screenrecorder"
         minSdk = 26
         targetSdk = 36
-        versionCode = 7
-        versionName = "5.0"
+        versionCode = 8
+        versionName = "6.0"
     }
 
     dependenciesInfo {

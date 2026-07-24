@@ -46,6 +46,21 @@
             android:exported="false" />
 
         <activity
+            android:name=".RegistrationActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ScreenRecorder" />
+
+        <activity
+            android:name=".SpeedControlActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ScreenRecorder" />
+
+        <activity
+            android:name=".GifConverterActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ScreenRecorder" />
+
+        <activity
             android:name=".MediaProjectionPermissionActivity"
             android:exported="false"
             android:excludeFromRecents="true"
