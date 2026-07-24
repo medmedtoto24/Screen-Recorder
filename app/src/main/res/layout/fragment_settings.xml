@@ -85,7 +85,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/settings_profile_tap_to_setup"
                         android:textAppearance="?attr/textAppearanceBodyMedium"
-                        android:textColor="?attr/colorOnPrimaryContainerVariant"
+                        android:textColor="?attr/colorOnPrimaryContainer"
                         android:layout_marginTop="4dp" />
 
                 </LinearLayout>
