@@ -120,9 +120,9 @@ class GifConverterActivity : AppCompatActivity() {
         val colorTable = ByteArray(256 * 3)
         for (i in 0 until 256) {
             val idx = i * 3
-            colorTable[idx] = ((i shr 5) and 7) * 36
-            colorTable[idx + 1] = ((i shr 2) and 7) * 36
-            colorTable[idx + 2] = (i and 3) * 85
+            colorTable[idx] = (((i shr 5) and 7) * 36).toByte()
+            colorTable[idx + 1] = (((i shr 2) and 7) * 36).toByte()
+            colorTable[idx + 2] = ((i and 3) * 85).toByte()
         }
         os.write(colorTable)
 
