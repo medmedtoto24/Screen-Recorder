@@ -90,6 +90,9 @@
     <string name="settings_show_touches_title">Show Touches</string>
     <string name="settings_show_touches_summary">Display visual touch feedback during recording</string>
 
+    <string name="settings_language_title">Language</string>
+    <string name="settings_language_summary">Choose app language</string>
+
     <string name="settings_about_app_title">About App</string>
     <string name="settings_about_app_summary">Version, licenses and developer info</string>
 
