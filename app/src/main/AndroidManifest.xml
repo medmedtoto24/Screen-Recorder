@@ -51,6 +51,16 @@
             android:excludeFromRecents="true"
             android:theme="@style/Theme.ScreenRecorder.Transparent" />
 
+        <activity
+            android:name=".VideoTrimmerActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ScreenRecorder" />
+
+        <activity
+            android:name=".ThumbnailMakerActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ScreenRecorder" />
+
         <service
             android:name=".ScreenRecordService"
             android:exported="false"

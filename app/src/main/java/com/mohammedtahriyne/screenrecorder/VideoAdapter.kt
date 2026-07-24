@@ -118,6 +118,8 @@ class VideoAdapter : ListAdapter<VideoFile, ListItemViewHolder>(VideoDiffCallbac
                 when (item.itemId) {
                     R.id.action_rename -> { showRenameDialog(video, view.context); true }
                     R.id.action_share -> { shareVideo(video, view.context); true }
+                    R.id.action_trim -> { openTrimmer(video, view.context); true }
+                    R.id.action_thumbnail -> { openThumbnailMaker(video, view.context); true }
                     R.id.action_delete -> { showDeleteDialog(video, view.context); true }
                     else -> false
                 }
@@ -150,6 +152,30 @@ class VideoAdapter : ListAdapter<VideoFile, ListItemViewHolder>(VideoDiffCallbac
             }
             .setNegativeButton(context.getString(R.string.VideoAdapter_btn_cancel), null)
             .show()
+    }
+
+    private fun openTrimmer(video: VideoFile, context: android.content.Context) {
+        try {
+            val intent = Intent(context, VideoTrimmerActivity::class.java).apply {
+                data = video.uri
+                addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
+            }
+            context.startActivity(intent)
+        } catch (e: Exception) {
+            Toast.makeText(context, context.getString(R.string.VideoAdapter_toast_no_player), Toast.LENGTH_SHORT).show()
+        }
+    }
+
+    private fun openThumbnailMaker(video: VideoFile, context: android.content.Context) {
+        try {
+            val intent = Intent(context, ThumbnailMakerActivity::class.java).apply {
+                data = video.uri
+                addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
+            }
+            context.startActivity(intent)
+        } catch (e: Exception) {
+            Toast.makeText(context, context.getString(R.string.VideoAdapter_toast_no_player), Toast.LENGTH_SHORT).show()
+        }
     }
 
     /**

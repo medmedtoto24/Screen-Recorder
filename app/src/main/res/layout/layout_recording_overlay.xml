@@ -5,12 +5,11 @@
     android:id="@+id/rootCard"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    app:cardCornerRadius="100dp"
-    app:cardElevation="6dp"
+    app:cardCornerRadius="28dp"
+    app:cardElevation="8dp"
     app:cardBackgroundColor="?attr/colorSurfaceContainerHigh"
-    android:alpha="0.9"
-    app:strokeWidth="0.8dp"
-    app:strokeColor="?attr/colorOutlineVariant">
+    android:alpha="0.95"
+    app:strokeWidth="0dp">
 
     <LinearLayout
         android:id="@+id/mainContainer"
@@ -18,16 +17,16 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center_vertical"
-        android:paddingStart="12dp"
-        android:paddingEnd="8dp"
-        android:paddingTop="2dp"
-        android:paddingBottom="2dp">
+        android:paddingStart="16dp"
+        android:paddingEnd="12dp"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp">
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/redDot"
             android:layout_width="8dp"
             android:layout_height="8dp"
-            android:layout_marginEnd="8dp"
+            android:layout_marginEnd="10dp"
             app:cardCornerRadius="4dp"
             app:cardElevation="0dp"
             app:strokeWidth="0dp"
@@ -37,8 +36,9 @@
             android:id="@+id/timer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="14sp"
+            android:textSize="13sp"
             android:textStyle="bold"
+            android:fontFamily="sans-serif-medium"
             android:textColor="?attr/colorOnSurface"
             android:layout_marginEnd="8dp"/>
 
@@ -51,13 +51,13 @@
 
             <com.google.android.material.divider.MaterialDivider
                 android:layout_width="1dp"
-                android:layout_height="16dp"
+                android:layout_height="20dp"
                 android:layout_marginEnd="4dp"
                 app:dividerColor="?attr/colorOutlineVariant" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnPause"
-                style="@style/Widget.Material3Expressive.Button.IconButton.Standard"
+                style="@style/Widget.Material3.Button.IconButton"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 app:iconSize="18dp"
@@ -65,10 +65,10 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnStop"
-                style="@style/Widget.Material3Expressive.Button.IconButton.Filled"
+                style="@style/Widget.Material3.Button.TonalButton"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:layout_marginStart="2dp"
+                android:layout_marginStart="4dp"
                 app:iconSize="18dp"
                 app:icon="@drawable/ic_stop"/>
         </LinearLayout>

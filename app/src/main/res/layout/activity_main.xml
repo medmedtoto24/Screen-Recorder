@@ -3,12 +3,14 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarLayout"
         android:layout_height="wrap_content"
-        android:layout_width="match_parent">
+        android:layout_width="match_parent"
+        android:fitsSystemWindows="true">
 
         <com.google.android.material.appbar.CollapsingToolbarLayout
             android:id="@+id/collapsingToolbar"
@@ -18,7 +20,6 @@
             style="@style/Widget.Material3.CollapsingToolbar.Large"
             app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
             app:title="@string/MainActivity_title"
-            android:background="?attr/colorSurface"
             app:contentScrim="?attr/colorSurface"
             app:statusBarScrim="?attr/colorSurface"
             app:toolbarId="@id/toolbar">
@@ -27,6 +28,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+                android:paddingHorizontal="4dp"
                 app:layout_collapseMode="pin">
 
                 <com.google.android.material.appbar.MaterialToolbar
@@ -34,12 +36,11 @@
                     android:layout_width="0dp"
                     android:layout_height="?attr/actionBarSize"
                     android:layout_weight="1"
-                    android:theme="@style/ThemeOverlay.Material3.Toolbar.CircleNavigationButton"
                     app:navigationIcon="@null" />
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btnSettings"
-                    style="@style/Widget.Material3Expressive.Button.IconButton.Tonal"
+                    style="@style/Widget.Material3.Button.IconButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
@@ -69,33 +70,59 @@
                 android:id="@+id/recyclerView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:layout_behavior="@string/appbar_scrolling_view_behavior"
                 android:paddingHorizontal="16dp"
-                android:clipToPadding="false" />
+                android:clipToPadding="false"
+                android:paddingBottom="88dp" />
 
             <LinearLayout
                 android:id="@+id/emptyView"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:orientation="vertical"
                 android:gravity="center"
                 android:padding="32dp">
 
+                <com.google.android.material.card.MaterialCardView
+                    style="?attr/materialCardViewElevatedStyle"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    app:cardCornerRadius="24dp"
+                    app:cardBackgroundColor="?attr/colorPrimaryContainer">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_screen_record"
+                        app:tint="?attr/colorOnPrimaryContainer" />
+
+                </com.google.android.material.card.MaterialCardView>
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/MainActivity_empty_text"
                     android:textAppearance="?attr/textAppearanceHeadlineSmall"
-                    android:textColor="?attr/colorOnSurfaceVariant" />
+                    android:textColor="?attr/colorOnSurface"
+                    android:layout_marginTop="20dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/MainActivity_empty_subtext"
-                    android:textAppearance="?attr/textAppearanceBodyMedium"
+                    android:textAppearance="?attr/textAppearanceBodyLarge"
                     android:layout_marginTop="8dp"
                     android:textColor="?attr/colorOnSurfaceVariant" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnStartRecording"
+                    style="@style/Widget.Material3.Button.TonalButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:text="@string/MainActivity_record_start"
+                    app:icon="@drawable/ic_screen_record" />
 
             </LinearLayout>
 

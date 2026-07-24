@@ -8,34 +8,40 @@
         android:translateX="24"
         android:translateY="24">
         
+        <!-- Screen frame -->
         <path
             android:pathData="M8,12C8,10.9 8.9,10 10,10L38,10C39.1,10 40,10.9 40,12L40,38C40,39.1 39.1,40 38,40L10,40C8.9,40 8,39.1 8,38Z"
-            android:fillColor="#000000"
+            android:fillColor="#FFFFFF"
             android:strokeWidth="0" />
         
+        <!-- Screen border -->
         <path
             android:pathData="M12,14L36,14L36,36L12,36Z"
-            android:fillColor="#000000"
+            android:fillColor="#1565C0"
             android:strokeWidth="0" />
         
+        <!-- Record dot -->
         <path
             android:pathData="M24,22m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0"
-            android:fillColor="#000000"
+            android:fillColor="#FF1744"
             android:strokeWidth="0" />
         
+        <!-- Play triangle on screen -->
         <path
             android:pathData="M21,27L21,33L27,30Z"
-            android:fillColor="#000000"
+            android:fillColor="#FFFFFF"
             android:strokeWidth="0" />
         
+        <!-- Stand -->
         <path
             android:pathData="M20,40L28,40L30,46L18,46Z"
-            android:fillColor="#000000"
+            android:fillColor="#FFFFFF"
             android:strokeWidth="0" />
         
+        <!-- Base -->
         <path
             android:pathData="M16,46L32,46L34,50L14,50Z"
-            android:fillColor="#000000"
+            android:fillColor="#FFFFFF"
             android:strokeWidth="0" />
     </group>
 </vector>

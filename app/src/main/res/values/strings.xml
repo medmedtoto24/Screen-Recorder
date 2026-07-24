@@ -11,13 +11,15 @@
     <string name="MainActivity_desc_mic">Toggle Microphone</string>
     <string name="MainActivity_desc_info">About App</string>
     <string name="MainActivity_empty_text">No recordings yet</string>
-    <string name="MainActivity_empty_subtext">Start your first recording</string>
+    <string name="MainActivity_empty_subtext">Tap the record button to start capturing your screen</string>
 
     <string name="ItemVideo_desc_menu">More options</string>
     <string name="ItemVideo_desc_thumbnail">Video thumbnail</string>
     <string name="ItemVideo_menu_delete">Delete</string>
     <string name="ItemVideo_menu_rename">Rename</string>
     <string name="ItemVideo_menu_share">Share</string>
+    <string name="ItemVideo_menu_trim">Trim Video</string>
+    <string name="ItemVideo_menu_thumbnail">Make Thumbnail</string>
 
     <string name="VideoAdapter_btn_cancel">Cancel</string>
     <string name="VideoAdapter_btn_delete">Delete</string>
@@ -95,5 +97,21 @@
     <string name="about_facebook_label">Follow on Facebook</string>
     <string name="about_support_email_title">Support Email</string>
     <string name="about_support_email_subtitle">mtahriyne20@gmail.com</string>
+
+    <!-- Video Trimmer -->
+    <string name="trimmer_title">Trim Video</string>
+    <string name="trimmer_start_hint">Start</string>
+    <string name="trimmer_end_hint">End</string>
+    <string name="trimmer_save">Save Trimmed Video</string>
+    <string name="trimmer_saved">Trimmed video saved</string>
+    <string name="trimmer_failed">Failed to trim video</string>
+
+    <!-- Thumbnail Maker -->
+    <string name="thumbnail_title">Thumbnail Maker</string>
+    <string name="thumbnail_save">Save Thumbnail</string>
+    <string name="thumbnail_saved">Thumbnail saved to gallery</string>
+    <string name="thumbnail_failed">Failed to save thumbnail</string>
+    <string name="thumbnail_extracting">Extracting frames\u2026</string>
+    <string name="thumbnail_select">Tap a frame to select</string>
 
 </resources>

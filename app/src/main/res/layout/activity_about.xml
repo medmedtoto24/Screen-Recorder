@@ -3,12 +3,14 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarLayout"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
+        android:fitsSystemWindows="true"
         app:layout_behavior="com.google.android.material.appbar.AppBarLayout$Behavior">
 
         <com.google.android.material.appbar.CollapsingToolbarLayout
@@ -19,7 +21,6 @@
             style="@style/Widget.Material3.CollapsingToolbar.Large"
             app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
             app:title="@string/AboutActivity_title"
-            android:background="?attr/colorSurface"
             app:contentScrim="?attr/colorSurface"
             app:statusBarScrim="?attr/colorSurface"
             app:toolbarId="@id/toolbar">
@@ -28,7 +29,6 @@
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
-                android:theme="@style/ThemeOverlay.Material3.Toolbar.CircleNavigationButton"
                 app:navigationIcon="?attr/homeAsUpIndicator"
                 app:layout_collapseMode="pin" />
 
@@ -41,6 +41,7 @@
         android:layout_height="match_parent"
         android:layout_width="match_parent"
         android:paddingHorizontal="16dp"
+        android:paddingBottom="16dp"
         android:clipToPadding="false"
         app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 

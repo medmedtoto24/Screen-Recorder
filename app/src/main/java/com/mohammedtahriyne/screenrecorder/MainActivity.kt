@@ -101,7 +101,19 @@ class MainActivity : AppCompatActivity() {
 
         binding.btnSettings.setOnClickListener {
             it.performHapticFeedback(HapticFeedbackConstants.VIRTUAL_KEY)
-            SettingsBottomSheet.newInstance().show(supportFragmentManager, "SettingsBottomSheet")
+            try {
+                val sheet = SettingsBottomSheet.newInstance()
+                if (!isFinishing && !isDestroyed) {
+                    sheet.show(supportFragmentManager, "SettingsBottomSheet")
+                }
+            } catch (e: Exception) {
+                e.printStackTrace()
+            }
+        }
+
+        binding.btnStartRecording?.setOnClickListener {
+            it.performHapticFeedback(HapticFeedbackConstants.CONFIRM)
+            handleRecordAction()
         }
     }
 
