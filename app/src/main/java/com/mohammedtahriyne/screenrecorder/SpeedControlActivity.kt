@@ -4,6 +4,7 @@ import android.media.MediaCodec
 import android.media.MediaExtractor
 import android.media.MediaFormat
 import android.media.MediaMuxer
+import android.media.MediaPlayer
 import android.media.PlaybackParams
 import android.net.Uri
 import android.os.Build
@@ -23,6 +24,7 @@ class SpeedControlActivity : AppCompatActivity() {
     private var videoUri: Uri? = null
     private var durationMs: Long = 0L
     private var speed: Float = 1.0f
+    private var mediaPlayer: MediaPlayer? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -42,6 +44,7 @@ class SpeedControlActivity : AppCompatActivity() {
 
         binding.videoView.setVideoURI(videoUri)
         binding.videoView.setOnPreparedListener { mp ->
+            mediaPlayer = mp
             durationMs = mp.duration.toLong()
             binding.loadingView.visibility = android.view.View.GONE
             mp.isLooping = true
@@ -73,7 +76,7 @@ class SpeedControlActivity : AppCompatActivity() {
 
     private fun applySpeed() {
         try {
-            val mp = binding.videoView.mediaPlayer ?: return
+            val mp = mediaPlayer ?: return
             val params = PlaybackParams()
             params.speed = speed
             mp.playbackParams = params

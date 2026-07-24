@@ -113,9 +113,9 @@ class GifConverterActivity : AppCompatActivity() {
             (h and 0xFF).toByte(), ((h shr 8) and 0xFF).toByte()
         ))
 
-        os.write(0xF7.toByte())
-        os.write(0.toByte())
-        os.write(0.toByte())
+        os.write(0xF7)
+        os.write(0)
+        os.write(0)
 
         val colorTable = ByteArray(256 * 3)
         for (i in 0 until 256) {
@@ -127,7 +127,7 @@ class GifConverterActivity : AppCompatActivity() {
         os.write(colorTable)
 
         for (frame in frames) {
-            os.write(0x2C.toByte())
+            os.write(0x2C)
             os.write(byteArrayOf(0, 0, 0, 0))
             os.write(byteArrayOf((w and 0xFF).toByte(), ((w shr 8) and 0xFF).toByte()))
             os.write(byteArrayOf((h and 0xFF).toByte(), ((h shr 8) and 0xFF).toByte()))
@@ -153,6 +153,6 @@ class GifConverterActivity : AppCompatActivity() {
             os.write(0x00)
         }
 
-        os.write(0x3B.toByte())
+        os.write(0x3B)
     }
 }
