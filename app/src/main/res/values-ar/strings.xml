@@ -1,0 +1,171 @@
+<resources>
+
+    <string name="app_name">شاشة تسجيل احترافية</string>
+    <string name="app_version">الإصدار 6.0</string>
+
+    <!-- التنقل -->
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_tools">الأدوات</string>
+    <string name="nav_settings">الإعدادات</string>
+
+    <!-- الصفحة الرئيسية -->
+    <string name="MainActivity_record_start">تسجيل</string>
+    <string name="MainActivity_record_stop">إيقاف</string>
+    <string name="MainActivity_empty_text">لا توجد تسجيلات بعد</string>
+    <string name="MainActivity_empty_subtext">اضغط على زر التسجيل لبدء التقاط الشاشة</string>
+
+    <string name="ItemVideo_desc_menu">خيارات إضافية</string>
+    <string name="ItemVideo_desc_thumbnail">صورة مصغرة للفيديو</string>
+    <string name="ItemVideo_menu_delete">حذف</string>
+    <string name="ItemVideo_menu_rename">إعادة تسمية</string>
+    <string name="ItemVideo_menu_share">مشاركة</string>
+    <string name="ItemVideo_menu_trim">قص الفيديو</string>
+    <string name="ItemVideo_menu_thumbnail">إنشاء صورة مصغرة</string>
+
+    <string name="VideoAdapter_btn_cancel">إلغاء</string>
+    <string name="VideoAdapter_btn_delete">حذف</string>
+    <string name="VideoAdapter_btn_rename">إعادة تسمية</string>
+    <string name="VideoAdapter_dialog_delete_title">حذف التسجيل</string>
+    <string name="VideoAdapter_dialog_delete_msg">هل أنت متأكد من حذف هذا الفيديو؟</string>
+    <string name="VideoAdapter_dialog_rename_title">إعادة تسمية التسجيل</string>
+    <string name="VideoAdapter_chooser_share">مشاركة الفيديو عبر</string>
+    <string name="VideoAdapter_toast_delete_failed">فشل في الحذف</string>
+    <string name="VideoAdapter_toast_rename_failed">فشل في إعادة التسمية</string>
+    <string name="VideoAdapter_toast_no_player">لم يتم العثور على مشغل فيديو</string>
+
+    <!-- الأدوات -->
+    <string name="tools_title">أدوات الفيديو</string>
+    <string name="tools_subtitle">تعديل وتحسين تسجيلاتك</string>
+    <string name="tools_video_label">تحرير الفيديو</string>
+    <string name="tools_quick_actions_label">إجراءات سريعة</string>
+    <string name="tools_trim_title">قص الفيديو</string>
+    <string name="tools_trim_summary">قص وتحرير تسجيلاتك للطول المثالي</string>
+    <string name="tools_thumbnail_title">منشئ الصور المصغرة</string>
+    <string name="tools_thumbnail_summary">استخراج وحفظ أفضل إطار كصورة مصغرة</string>
+    <string name="tools_speed_title">التحكم بالسرعة</string>
+    <string name="tools_speed_summary">تغيير سرعة تشغيل الفيديو من 0.25x إلى 4x</string>
+    <string name="tools_gif_title">محول GIF</string>
+    <string name="tools_gif_summary">تحويل تسجيلاتك إلى صور GIF متحركة</string>
+    <string name="tools_about_title">عن التطبيق</string>
+    <string name="tools_about_summary">الإصدار والتصاريح ومعلومات المطور</string>
+
+    <!-- الإعدادات -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="settings_subtitle">تكوين تفضيلات التسجيل</string>
+    <string name="settings_appearance_header">المظهر</string>
+    <string name="settings_audio_header">الصوت</string>
+    <string name="settings_video_header">الفيديو</string>
+    <string name="settings_advanced_header">متقدم</string>
+    <string name="settings_about_header">معلومات</string>
+
+    <string name="settings_profile_not_set">اضغط لإعداد الملف الشخصي</string>
+    <string name="settings_profile_no_email">لم يتم تعيين بريد إلكتروني</string>
+    <string name="settings_profile_tap_to_setup">اضغط لإعداد ملفك الشخصي</string>
+
+    <string name="settings_dynamic_colors_title">ألوان ديناميكية</string>
+    <string name="settings_dynamic_colors_summary">تطبيق ألوان بناءً على خلفيتك</string>
+
+    <string name="settings_theme_title">سمة التطبيق</string>
+    <string name="settings_theme_summary">اختر المظهر المفضل لديك</string>
+    <string name="settings_theme_system">النظام</string>
+    <string name="settings_theme_light">فاتح</string>
+    <string name="settings_theme_dark">داكن</string>
+
+    <string name="settings_mic_title">الميكروفون</string>
+    <string name="settings_mic_summary">تسجيل الصوت من الميكروفون</string>
+    <string name="settings_system_audio_title">صوت النظام</string>
+    <string name="settings_system_audio_summary">تسجيل الصوت الداخلي للجهاز</string>
+
+    <string name="settings_quality_title">جودة الفيديو</string>
+    <string name="settings_quality_summary">اختر الدقة لتسجيلك</string>
+    <string name="settings_quality_max">الحد الأقصى</string>
+    <string name="settings_quality_4k">4K</string>
+    <string name="settings_quality_2k">2K</string>
+    <string name="settings_quality_1080p">1080p</string>
+    <string name="settings_quality_720p">720p</string>
+    <string name="settings_quality_480p">480p</string>
+    <string name="settings_quality_360p">360p</string>
+    <string name="settings_quality_240p">240p</string>
+
+    <string name="settings_show_touches_title">عرض اللمس</string>
+    <string name="settings_show_touches_summary">عرض تغذية بصرية للمس أثناء التسجيل</string>
+
+    <string name="settings_language_title">اللغة</string>
+    <string name="settings_language_summary">اختر لغة التطبيق</string>
+
+    <string name="settings_about_app_title">عن التطبيق</string>
+    <string name="settings_about_app_summary">الإصدار والتصاريح ومعلومات المطور</string>
+
+    <!-- حول -->
+    <string name="AboutActivity_title">حول</string>
+    <string name="about_developer_label">المطور</string>
+    <string name="about_youtube_label">اشترك على يوتيوب</string>
+    <string name="about_instagram_label">تابع على إنستغرام</string>
+    <string name="about_facebook_label">تابع على فيسبوك</string>
+    <string name="about_support_email_title">بريد الدعم</string>
+    <string name="about_support_email_subtitle">mtahriyne20@gmail.com</string>
+
+    <!-- قص الفيديو -->
+    <string name="trimmer_title">قص الفيديو</string>
+    <string name="trimmer_start_hint">البداية</string>
+    <string name="trimmer_end_hint">النهاية</string>
+    <string name="trimmer_save">حفظ الفيديو المقصوص</string>
+    <string name="trimmer_saved">تم حفظ الفيديو المقصوص</string>
+    <string name="trimmer_failed">فشل في قص الفيديو</string>
+
+    <!-- منشئ الصور المصغرة -->
+    <string name="thumbnail_title">منشئ الصور المصغرة</string>
+    <string name="thumbnail_save">حفظ الصورة المصغرة</string>
+    <string name="thumbnail_saved">تم حفظ الصورة المصغرة في المعرض</string>
+    <string name="thumbnail_failed">فشل في حفظ الصورة المصغرة</string>
+    <string name="thumbnail_extracting">جارٍ استخراج الإطارات\u2026</string>
+    <string name="thumbnail_select">اضغط على إطار لتحديده</string>
+
+    <!-- التحكم بالسرعة -->
+    <string name="speed_title">التحكم بالسرعة</string>
+    <string name="speed_label">سرعة التشغيل</string>
+    <string name="speed_save">حفظ الفيديو</string>
+    <string name="speed_saved">تم حفظ الفيديو بالسرعة الجديدة</string>
+    <string name="speed_failed">فشل في معالجة الفيديو</string>
+
+    <!-- محول GIF -->
+    <string name="gif_title">محول GIF</string>
+    <string name="gif_settings_label">مدة GIF</string>
+    <string name="gif_save">تحويل إلى GIF</string>
+    <string name="gif_saved">تم إنشاء GIF بنجاح</string>
+    <string name="gif_failed">فشل في إنشاء GIF</string>
+
+    <!-- التسجيل -->
+    <string name="registration_title">ملفك الشخصي</string>
+    <string name="registration_subtitle">قم بإعداد ملفك الشخصي لتخصيص التطبيق</string>
+    <string name="registration_name_hint">الاسم الكامل</string>
+    <string name="registration_email_hint">البريد الإلكتروني</string>
+    <string name="registration_bio_hint">السيرة الذاتية (اختياري)</string>
+    <string name="registration_save">حفظ الملف الشخصي</string>
+    <string name="registration_skip">تخطي مؤقتاً</string>
+    <string name="registration_success">تم حفظ الملف الشخصي بنجاح</string>
+    <string name="registration_error_name">الرجاء إدخال اسمك</string>
+
+    <!-- الخدمات -->
+    <string name="MediaProjectionPermissionActivity_permission_denied">تم رفض الإذن</string>
+    <string name="MediaProjectionPermissionActivity_log_init_failed">فشل التهيئة</string>
+    <string name="MediaProjectionPermissionActivity_log_proj_failed">فشل طلب إسقاط الوسائط</string>
+    <string name="MediaProjectionPermissionActivity_log_service_failed">فشل بدء الخدمة</string>
+
+    <string name="ScreenRecordService_notif_title">تسجيل الشاشة</string>
+    <string name="ScreenRecordService_notif_text">جارٍ التسجيل\u2026</string>
+    <string name="ScreenRecordService_notif_btn_stop">إيقاف</string>
+    <string name="ScreenRecordService_notif_done_title">تم حفظ التسجيل</string>
+    <string name="ScreenRecordService_notif_done_btn_app">فتح التطبيق</string>
+    <string name="ScreenRecordService_toast_saved">تم حفظ التسجيل بنجاح</string>
+    <string name="ScreenRecordService_toast_failed">فشل بدء التسجيل</string>
+    <string name="ScreenRecordService_virtual_display_name">شاشة تسجيل احترافية</string>
+
+    <string name="ScreenRecordTileService_tile_start">تسجيل</string>
+    <string name="ScreenRecordTileService_tile_stop">إيقاف التسجيل</string>
+
+    <string name="dialog_edit_text_rename_title">العنوان</string>
+
+    <string name="ConfigManager_quality_max_with_label">الحد الأقصى (%1$s)</string>
+
+</resources>

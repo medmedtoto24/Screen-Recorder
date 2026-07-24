@@ -1,0 +1,171 @@
+<resources>
+
+    <string name="app_name">Enregistreur d\'écran Pro</string>
+    <string name="app_version">Version 6.0</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Accueil</string>
+    <string name="nav_tools">Outils</string>
+    <string name="nav_settings">Paramètres</string>
+
+    <!-- Home -->
+    <string name="MainActivity_record_start">Enregistrer</string>
+    <string name="MainActivity_record_stop">Arrêter</string>
+    <string name="MainActivity_empty_text">Aucun enregistrement</string>
+    <string name="MainActivity_empty_subtext">Appuyez sur le bouton d\'enregistrement pour capturer votre écran</string>
+
+    <string name="ItemVideo_desc_menu">Plus d\'options</string>
+    <string name="ItemVideo_desc_thumbnail">Miniature de la vidéo</string>
+    <string name="ItemVideo_menu_delete">Supprimer</string>
+    <string name="ItemVideo_menu_rename">Renommer</string>
+    <string name="ItemVideo_menu_share">Partager</string>
+    <string name="ItemVideo_menu_trim">Rogner la vidéo</string>
+    <string name="ItemVideo_menu_thumbnail">Créer une miniature</string>
+
+    <string name="VideoAdapter_btn_cancel">Annuler</string>
+    <string name="VideoAdapter_btn_delete">Supprimer</string>
+    <string name="VideoAdapter_btn_rename">Renommer</string>
+    <string name="VideoAdapter_dialog_delete_title">Supprimer l\'enregistrement</string>
+    <string name="VideoAdapter_dialog_delete_msg">Êtes-vous sûr de vouloir supprimer cette vidéo ?</string>
+    <string name="VideoAdapter_dialog_rename_title">Renommer l\'enregistrement</string>
+    <string name="VideoAdapter_chooser_share">Partager la vidéo via</string>
+    <string name="VideoAdapter_toast_delete_failed">Échec de la suppression</string>
+    <string name="VideoAdapter_toast_rename_failed">Échec du renommage</string>
+    <string name="VideoAdapter_toast_no_player">Aucun lecteur vidéo trouvé</string>
+
+    <!-- Tools -->
+    <string name="tools_title">Outils vidéo</string>
+    <string name="tools_subtitle">Modifiez et améliorez vos enregistrements</string>
+    <string name="tools_video_label">Montage vidéo</string>
+    <string name="tools_quick_actions_label">Actions rapides</string>
+    <string name="tools_trim_title">Rogner la vidéo</string>
+    <string name="tools_trim_summary">Coupez et rognez vos enregistrements à la longueur parfaite</string>
+    <string name="tools_thumbnail_title">Créateur de miniature</string>
+    <string name="tools_thumbnail_summary">Extrayez et enregistrez la meilleure image comme miniature</string>
+    <string name="tools_speed_title">Contrôle de vitesse</string>
+    <string name="tools_speed_summary">Modifiez la vitesse de lecture de 0,25x à 4x</string>
+    <string name="tools_gif_title">Convertisseur GIF</string>
+    <string name="tools_gif_summary">Convertissez vos enregistrements en GIF animés</string>
+    <string name="tools_about_title">À propos</string>
+    <string name="tools_about_summary">Version, licences et infos développeur</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Paramètres</string>
+    <string name="settings_subtitle">Configurez vos préférences d\'enregistrement</string>
+    <string name="settings_appearance_header">Apparence</string>
+    <string name="settings_audio_header">Audio</string>
+    <string name="settings_video_header">Vidéo</string>
+    <string name="settings_advanced_header">Avancé</string>
+    <string name="settings_about_header">Informations</string>
+
+    <string name="settings_profile_not_set">Appuyez pour configurer le profil</string>
+    <string name="settings_profile_no_email">Aucun e-mail défini</string>
+    <string name="settings_profile_tap_to_setup">Appuyez pour configurer votre profil</string>
+
+    <string name="settings_dynamic_colors_title">Couleurs dynamiques</string>
+    <string name="settings_dynamic_colors_summary">Appliquer des couleurs basées sur votre fond d\'écran</string>
+
+    <string name="settings_theme_title">Thème de l\'application</string>
+    <string name="settings_theme_summary">Choisissez votre apparence préférée</string>
+    <string name="settings_theme_system">Système</string>
+    <string name="settings_theme_light">Clair</string>
+    <string name="settings_theme_dark">Sombre</string>
+
+    <string name="settings_mic_title">Microphone</string>
+    <string name="settings_mic_summary">Enregistrer l\'audio depuis votre micro</string>
+    <string name="settings_system_audio_title">Audio système</string>
+    <string name="settings_system_audio_summary">Enregistrer le son interne de l\'appareil</string>
+
+    <string name="settings_quality_title">Qualité vidéo</string>
+    <string name="settings_quality_summary">Choisissez la résolution pour votre enregistrement</string>
+    <string name="settings_quality_max">Maximum</string>
+    <string name="settings_quality_4k">4K</string>
+    <string name="settings_quality_2k">2K</string>
+    <string name="settings_quality_1080p">1080p</string>
+    <string name="settings_quality_720p">720p</string>
+    <string name="settings_quality_480p">480p</string>
+    <string name="settings_quality_360p">360p</string>
+    <string name="settings_quality_240p">240p</string>
+
+    <string name="settings_show_touches_title">Afficher les touches</string>
+    <string name="settings_show_touches_summary">Afficher un retour visuel des touches pendant l\'enregistrement</string>
+
+    <string name="settings_language_title">Langue</string>
+    <string name="settings_language_summary">Choisissez la langue de l\'application</string>
+
+    <string name="settings_about_app_title">À propos de l\'application</string>
+    <string name="settings_about_app_summary">Version, licences et infos développeur</string>
+
+    <!-- About -->
+    <string name="AboutActivity_title">À propos</string>
+    <string name="about_developer_label">Développeur</string>
+    <string name="about_youtube_label">S\'abonner sur YouTube</string>
+    <string name="about_instagram_label">Suivre sur Instagram</string>
+    <string name="about_facebook_label">Suivre sur Facebook</string>
+    <string name="about_support_email_title">E-mail de support</string>
+    <string name="about_support_email_subtitle">mtahriyne20@gmail.com</string>
+
+    <!-- Video Trimmer -->
+    <string name="trimmer_title">Rogner la vidéo</string>
+    <string name="trimmer_start_hint">Début</string>
+    <string name="trimmer_end_hint">Fin</string>
+    <string name="trimmer_save">Enregistrer la vidéo rognée</string>
+    <string name="trimmer_saved">Vidéo rognée enregistrée</string>
+    <string name="trimmer_failed">Échec du rognage de la vidéo</string>
+
+    <!-- Thumbnail Maker -->
+    <string name="thumbnail_title">Créateur de miniature</string>
+    <string name="thumbnail_save">Enregistrer la miniature</string>
+    <string name="thumbnail_saved">Miniature enregistrée dans la galerie</string>
+    <string name="thumbnail_failed">Échec de l\'enregistrement de la miniature</string>
+    <string name="thumbnail_extracting">Extraction des images\u2026</string>
+    <string name="thumbnail_select">Appuyez sur une image pour la sélectionner</string>
+
+    <!-- Speed Control -->
+    <string name="speed_title">Contrôle de vitesse</string>
+    <string name="speed_label">Vitesse de lecture</string>
+    <string name="speed_save">Enregistrer la vidéo</string>
+    <string name="speed_saved">Vidéo enregistrée avec la nouvelle vitesse</string>
+    <string name="speed_failed">Échec du traitement de la vidéo</string>
+
+    <!-- GIF Converter -->
+    <string name="gif_title">Convertisseur GIF</string>
+    <string name="gif_settings_label">Durée du GIF</string>
+    <string name="gif_save">Convertir en GIF</string>
+    <string name="gif_saved">GIF créé avec succès</string>
+    <string name="gif_failed">Échec de la création du GIF</string>
+
+    <!-- Registration -->
+    <string name="registration_title">Votre profil</string>
+    <string name="registration_subtitle">Configurez votre profil pour personnaliser l\'application</string>
+    <string name="registration_name_hint">Nom complet</string>
+    <string name="registration_email_hint">Adresse e-mail</string>
+    <string name="registration_bio_hint">Bio (optionnel)</string>
+    <string name="registration_save">Enregistrer le profil</string>
+    <string name="registration_skip">Passer pour l\'instant</string>
+    <string name="registration_success">Profil enregistré avec succès</string>
+    <string name="registration_error_name">Veuillez entrer votre nom</string>
+
+    <!-- Services -->
+    <string name="MediaProjectionPermissionActivity_permission_denied">Permission refusée</string>
+    <string name="MediaProjectionPermissionActivity_log_init_failed">Échec de l\'initialisation</string>
+    <string name="MediaProjectionPermissionActivity_log_proj_failed">Échec de la requête de projection multimédia</string>
+    <string name="MediaProjectionPermissionActivity_log_service_failed">Échec du démarrage du service</string>
+
+    <string name="ScreenRecordService_notif_title">Enregistrement d\'écran</string>
+    <string name="ScreenRecordService_notif_text">Enregistrement en cours\u2026</string>
+    <string name="ScreenRecordService_notif_btn_stop">Arrêter</string>
+    <string name="ScreenRecordService_notif_done_title">Enregistrement sauvegardé</string>
+    <string name="ScreenRecordService_notif_done_btn_app">Ouvrir l\'application</string>
+    <string name="ScreenRecordService_toast_saved">Enregistrement sauvegardé avec succès</string>
+    <string name="ScreenRecordService_toast_failed">Échec du démarrage de l\'enregistrement</string>
+    <string name="ScreenRecordService_virtual_display_name">Enregistreur d\'écran Pro</string>
+
+    <string name="ScreenRecordTileService_tile_start">Enregistrer</string>
+    <string name="ScreenRecordTileService_tile_stop">Arrêter l\'enregistrement</string>
+
+    <string name="dialog_edit_text_rename_title">Titre</string>
+
+    <string name="ConfigManager_quality_max_with_label">Max (%1$s)</string>
+
+</resources>

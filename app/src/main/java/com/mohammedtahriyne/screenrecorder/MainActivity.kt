@@ -35,6 +35,8 @@ class MainActivity : AppCompatActivity() {
 
         configManager = ConfigManager(this)
 
+        LocaleHelper.applyLanguage(configManager.appLanguage)
+
         setSupportActionBar(binding.toolbar)
         setupBottomNavigation()
         setupFragments()

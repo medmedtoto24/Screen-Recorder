@@ -27,6 +27,13 @@ class ConfigManager(private val context: Context) {
         private const val KEY_SHOW_TOUCHES = "show_touches"
         private const val KEY_THEME_MODE = "theme_mode"
         private const val KEY_DYNAMIC_COLORS = "dynamic_colors_enabled"
+        private const val KEY_LANGUAGE = "app_language"
+
+        const val LANG_SYSTEM = "system"
+        const val LANG_ENGLISH = "en"
+        const val LANG_ARABIC = "ar"
+        const val LANG_FRENCH = "fr"
+        const val LANG_SPANISH = "es"
 
         const val QUALITY_MAX = "max"
         const val QUALITY_4K = "4k"
@@ -73,6 +80,10 @@ class ConfigManager(private val context: Context) {
     var isDynamicColorsEnabled: Boolean
         get() = prefs.getBoolean(KEY_DYNAMIC_COLORS, true)
         set(value) = prefs.edit().putBoolean(KEY_DYNAMIC_COLORS, value).apply()
+
+    var appLanguage: String
+        get() = prefs.getString(KEY_LANGUAGE, LANG_SYSTEM) ?: LANG_SYSTEM
+        set(value) = prefs.edit().putString(KEY_LANGUAGE, value).apply()
 
     /*
      * Converts the saved theme string to the AppCompatDelegate integer constant.

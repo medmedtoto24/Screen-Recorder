@@ -15,22 +15,22 @@
         <item name="enableEdgeToEdge">true</item>
         <item name="android:enforceNavigationBarContrast">false</item>
 
-        <item name="colorPrimary">#A0CAFD</item>
-        <item name="colorOnPrimary">#003258</item>
-        <item name="colorPrimaryContainer">#004A77</item>
-        <item name="colorOnPrimaryContainer">#D6E3FF</item>
-        <item name="colorSecondary">#BBC7DB</item>
-        <item name="colorOnSecondary">#253140</item>
-        <item name="colorSecondaryContainer">#3B4858</item>
-        <item name="colorOnSecondaryContainer">#D7E3F7</item>
-        <item name="colorTertiary">#D2BEE4</item>
-        <item name="colorOnTertiary">#3B2948</item>
-        <item name="colorTertiaryContainer">#4D3F5E</item>
-        <item name="colorOnTertiaryContainer">#F2DAFF</item>
-        <item name="colorError">#FFB4AB</item>
-        <item name="colorOnError">#690005</item>
-        <item name="colorErrorContainer">#93000A</item>
-        <item name="colorOnErrorContainer">#FFDAD6</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorPrimaryContainer">@color/colorPrimaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/colorOnPrimaryContainer</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <item name="colorSecondaryContainer">@color/colorSecondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/colorOnSecondaryContainer</item>
+        <item name="colorTertiary">@color/colorTertiary</item>
+        <item name="colorOnTertiary">@color/colorOnTertiary</item>
+        <item name="colorTertiaryContainer">@color/colorTertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/colorOnTertiaryContainer</item>
+        <item name="colorError">@color/colorError</item>
+        <item name="colorOnError">@color/colorOnError</item>
+        <item name="colorErrorContainer">@color/colorErrorContainer</item>
+        <item name="colorOnErrorContainer">@color/colorOnErrorContainer</item>
     </style>
 
     <style

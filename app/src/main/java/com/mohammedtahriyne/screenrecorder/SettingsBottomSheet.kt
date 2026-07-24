@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatDelegate
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.google.android.material.button.MaterialButtonToggleGroup
 import com.google.android.material.color.DynamicColors
+import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.mohammedtahriyne.screenrecorder.databinding.LayoutSettingsSheetBinding
 
 class SettingsBottomSheet : BottomSheetDialogFragment() {
@@ -49,6 +50,40 @@ class SettingsBottomSheet : BottomSheetDialogFragment() {
         setupListeners()
         setupDynamicQualities()
         setupAppearanceSection()
+        updateLanguageDisplay()
+    }
+
+    private fun updateLanguageDisplay() {
+        val cm = _configManager ?: return
+        val currentLang = cm.appLanguage
+        val displayName = when (currentLang) {
+            ConfigManager.LANG_SYSTEM -> "System Default"
+            ConfigManager.LANG_ENGLISH -> "English"
+            ConfigManager.LANG_ARABIC -> "العربية"
+            ConfigManager.LANG_FRENCH -> "Français"
+            ConfigManager.LANG_SPANISH -> "Español"
+            else -> "System Default"
+        }
+        binding.tvLanguageValue.text = displayName
+    }
+
+    private fun showLanguageDialog() {
+        val cm = _configManager ?: return
+        val languages = LocaleHelper.supportedLanguages
+        val labels = languages.map { it.second }.toTypedArray()
+        val codes = languages.map { it.first }.toTypedArray()
+        val currentIndex = codes.indexOf(cm.appLanguage).coerceAtLeast(0)
+
+        MaterialAlertDialogBuilder(requireContext())
+            .setTitle(getString(R.string.settings_language_title))
+            .setSingleChoiceItems(labels, currentIndex) { dialog, which ->
+                cm.appLanguage = codes[which]
+                updateLanguageDisplay()
+                LocaleHelper.applyLanguage(codes[which])
+                dialog.dismiss()
+            }
+            .setNegativeButton(R.string.VideoAdapter_btn_cancel, null)
+            .show()
     }
 
     private fun loadCurrentSettings() {
@@ -154,6 +189,8 @@ class SettingsBottomSheet : BottomSheetDialogFragment() {
                 e.printStackTrace()
             }
         }
+
+        binding.cardLanguage.setOnClickListener { showLanguageDialog() }
     }
 
     private fun setupDynamicQualities() {
