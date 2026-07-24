@@ -173,12 +173,12 @@ class VideoTrimmerActivity : AppCompatActivity() {
             bufferInfo.presentationTimeUs = extractor.sampleTime
             if (bufferInfo.presentationTimeUs > endMs * 1000) break
             if (bufferInfo.presentationTimeUs >= startMs * 1000) {
-                bufferInfo.trackIndex = indexMap[extractor.sampleTrackIndex] ?: 0
+                val trackIndex = indexMap[extractor.sampleTrackIndex] ?: 0
                 if (!started) {
                     muxer.start()
                     started = true
                 }
-                muxer.writeSampleData(bufferInfo.trackIndex, buffer, bufferInfo)
+                muxer.writeSampleData(trackIndex, buffer, bufferInfo)
             }
             extractor.advance()
         }
